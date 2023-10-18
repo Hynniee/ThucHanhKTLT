@@ -36,6 +36,8 @@ int main()
 	for(int j=0;j<n;j++)
 		if(a[i][j]==x)	
 			printf("phan tu trung voi x co vi tri la a[%d][%d]\n",i,j);
+		//7
+		//8
 	for (int i = 0; i < m; i++) {
       for (int j = 0; j < n; j++) {
          if (i == j)
@@ -47,7 +49,9 @@ int main()
       for (int j = i+1; j < n; j++) 
          if (a[i][j]%2==0 && i<j)
          	tongchan=tongchan+a[i][j];
-	  printf("\nTong cac so chan o tam giac tren cua ma tran la: %d", tongchan);	
+	  printf("\nTong cac so chan o tam giac tren cua ma tran la: %d", tongchan);
+	  //11
+	  //12	
 void nhapmang(int a[5][5], int m, int n)
 {
 	for(int i=0;i<m;i++)
