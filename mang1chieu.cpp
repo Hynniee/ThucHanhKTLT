@@ -50,4 +50,6 @@ int sapxep(int a[], int n)
 				}
 }
 
-	
+	//8
+	//9
+	//10
