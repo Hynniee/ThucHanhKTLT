@@ -38,11 +38,13 @@ int main()
 			printf("phan tu trung voi x co vi tri la a[%d][%d]\n",i,j);
 		//7
 		//8
-	for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) {
+	for (int i = 0; i < m; i++) 
+	{
+      for (int j = 0; j < n; j++)
+	   {
          if (i == j)
             sum = sum + a[i][j];
-      }
+       }
    }
    printf("\nTong duong cheo chinh cua ma tran la: %d", sum);
    for (int i = 0; i < n-1; i++) 
@@ -50,6 +52,10 @@ int main()
          if (a[i][j]%2==0 && i<j)
          	dem=dem+1;
 	  printf("\nSo cac phan tu la so chan o tam giac tren cua ma tran la: %d", dem);
+	for (int i = 0; i < n; i++) 
+      for (int j = i-1; j < n; j++) 
+         if (a[i][j]%2!=0 && i>=j)
+         	printf("\nSo le o tam giac duoi la %d\t",a[i][j]);
 	  //11
 	  //12	
 }
