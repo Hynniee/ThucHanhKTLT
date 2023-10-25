@@ -51,12 +51,12 @@ int main()
       for (int j = i+1; j < n; j++) 
          if (a[i][j]%2==0 && i<j)
          	dem=dem+1;
-	  printf("\nSo cac phan tu la so chan o tam giac tren cua ma tran la: %d", dem);
+	  printf("\nSo cac phan tu la so chan o tam giac tren cua ma tran la: %d\n", dem);
+	  printf("so le cua tam giac duoi la:\n");
 	for (int i = 0; i < n; i++) 
-      for (int j = i-1; j < n; j++) 
+      for (int j = 0; j < n; j++) 
          if (a[i][j]%2!=0 && i>=j)
-         	printf("\nSo le o tam giac duoi la %d\t",a[i][j]);
-	  //11
+         	printf("%d\t",a[i][j]);
 	  //12	
 }
 void nhapmang(int a[5][5], int m, int n)
